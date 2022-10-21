@@ -1,4 +1,4 @@
-# 🤖 pckname
+# 🤖 discord-node-bot-boilerplate
 
 <!-- all-shields/header-badges:START -->
 
