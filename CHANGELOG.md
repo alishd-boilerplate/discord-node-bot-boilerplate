@@ -1,4 +1,4 @@
-# v1.0.0 (October 21, 2022)
+# v1.0.0 (October 22, 2022)
 
 -   First release
 

@@ -2,14 +2,15 @@
 
 <!-- all-shields/header-badges:START -->
 
-[![v1.0.0](https://img.shields.io/badge/version-v1.0.0-lightgray.svg?style=flat&logo=)](https://dsadase-boilerplate-boilerplate-boilerplate/pckname/blob/main/CHANGELOG.md) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://dsadase-boilerplate-boilerplate-boilerplate/pckname/blob/main/LICENSE.md) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262)
+[![v1.0.0](https://img.shields.io/badge/version-v1.0.0-lightgray.svg?style=flat&logo=)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/CHANGELOG.md) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/LICENSE.md) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262)
 
 <!-- all-shields/header-badges:END -->
 
 Create your discord bot with this awesome boilerplate. Use this template for your bot
 
 This is a [github template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/), you can fork it or [use it as a template](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/generate) to start a new project with this repository as hello-world. Use this template to start ahead without losing time configuring your template!
-A huge thanks to my friend [PTKdev](https://github.com/PTKdev) for allowing me to take a cue from his beatiful templates!
+
+A huge thanks goes to my friend [PTKdev](https://github.com/PTKdev) for allowing me to take a cue from his beatiful templates! Go check him out!
 
 ## 🎁 Support: Donate
 
@@ -55,22 +56,31 @@ A huge thanks to my friend [PTKdev](https://github.com/PTKdev) for allowing me t
 
 1. Clone this repository or download [nightly](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/archive/nightly.zip), [beta](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/archive/beta.zip) or [stable](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/archive/main.zip).
 2. Go to [@discord api](https://discord.com/developers/applications) and create new bot (Obtain an API Key / CLIENT ID key / GUILD ID key)
-3. Run with correct values: `npm run init:token --apikey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad`
-4. Run `npm run init`
+3. Run `npm run init`
+4. Run with correct values: `npm run configure --botkey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad --mongodb 1234:3242342 --jwtsecret somesecretstring` (MongoDB and JWT are optional)
 5. Run `npm run dev`
+
+By default both MONGODB and a REST API are enabled, for disabiling it just use those comands:
+`npm run enable-db dev`
+`npm run enable-api dev`
+`npm run disable-db dev`
+`npm run disable-api dev`
+
+`npm run enable-db prod`
+`npm run enable-api prod`
+`npm run disable-db prod`
+`npm run disable-api prod`
 
 ### 💾 Setup Project
 
 If you want to replace all strings (example: package name, author, URLs, etc...) in the markdown file, source files and others files of this project you need to edit `setup.json` with correct values and run `npm run setup`.
 
-## 🖥️ Deploy
-
-### 🚀 Native Run
+## 🚀 Deploy
 
 Deploy bot to your server and:
 
-1. Run with correct values: `npm run init:token --token asdfghjkl`
-2. Run init `npm run init`
+1. Run with correct values: `npm run init:token --botkey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad --mongodb 1234:3242342 --jwtsecret somesecretstring` (MongoDB and JWT are optional)
+2. Run `npm run init`
 3. Generate release `npm run release`
 4. Start bot `npm run start-pm2`
 
@@ -80,7 +90,7 @@ Run `npm run docs`
 
 ## 👨‍💻 Contributing
 
-I love contributions! I will happly accept your pull request! Translations, grammatical corrections, code correction and suggestions. Remember to insert your name in `.all-contributorsrc` and `package.json` files.
+I love contributions! I will happily accept your pull request! Translations, grammatical corrections, code correction and suggestions. Remember to insert your name in `.all-contributorsrc` and `package.json` files.
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -90,7 +100,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="16.66%"><a href="https://alishd.dev"><img src="https://avatars.githubusercontent.com/u/50172746?s=400&u=c681fbe46cb0e3a866b3d19bdd2a96bfb21c7144&v=4?s=100" width="100px;" alt="Ali Shadman"/><br /><sub><b>Ali Shadman</b></sub></a><br /><a href="https://github.com/ptkdev/ptkdev-boilerplate/node-telegram-bot-boilerplate/commits?author=alishd" title="Code">💻</a> <a href="#translation-alishd" title="Translation">🌍</a> <a href="https://github.com/ptkdev/ptkdev-boilerplate/node-telegram-bot-boilerplate/commits?author=alishd" title="Documentation">📖</a> <a href="https://github.com/ptkdev/ptkdev-boilerplate/node-telegram-bot-boilerplate/issues?q=author%3Aalishd" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://alishd.dev"><img src="https://avatars.githubusercontent.com/u/50172746?s=400&u=c681fbe46cb0e3a866b3d19bdd2a96bfb21c7144&v=4?s=100" width="100px;" alt="Ali Shadman"/><br /><sub><b>Ali Shadman</b></sub></a><br /><a href="https://github.com/alishadman95/alishd-boilerplate/discord-node-bot-boilerplate/commits?author=alishd" title="Code">💻</a> <a href="#translation-alishd" title="Translation">🌍</a> <a href="https://github.com/alishadman95/alishd-boilerplate/discord-node-bot-boilerplate/commits?author=alishd" title="Documentation">📖</a> <a href="https://github.com/alishadman95/alishd-boilerplate/discord-node-bot-boilerplate/issues?q=author%3Aalishd" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4?s=100" width="100px;" alt="Patryk Rzucidło"/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/alishadman95/alishd-boilerplate/discord-node-bot-boilerplate/commits?author=ptkdev" title="Code">💻</a> <a href="#translation-ptkdev" title="Translation">🌍</a> <a href="https://github.com/alishadman95/alishd-boilerplate/discord-node-bot-boilerplate/commits?author=ptkdev" title="Documentation">📖</a> <a href="https://github.com/alishadman95/alishd-boilerplate/discord-node-bot-boilerplate/issues?q=author%3Aptkdev" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>

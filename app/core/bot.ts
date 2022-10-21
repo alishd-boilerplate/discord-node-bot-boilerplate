@@ -46,32 +46,32 @@ import logger from "@app/functions/utils/logger";
 (async () => {
 	logger.info("Bot is starting...", "bot.ts:main()");
 
-	await db.connection.connectDB();
+	process.env.DATABASE === "true" && (await db.connection.connectDB());
 
 	await commands.commandsHandler();
 	await commands.launch();
 })();
 
 process.on("SIGTERM", async function () {
-	await db.connection.disconnectDB();
+	process.env.DATABASE === "true" && (await db.connection.disconnectDB());
 	process.exit(1);
 });
 
 process.on("SIGINT", async function () {
 	// on CTRL-C
-	await db.connection.disconnectDB();
+	process.env.DATABASE === "true" && (await db.connection.disconnectDB());
 	process.exit(1);
 });
 
 process.once("SIGUSR2", async function () {
 	// On nodemon refresh
-	await db.connection.disconnectDB();
+	process.env.DATABASE === "true" && (await db.connection.disconnectDB());
 });
 
 process.on("uncaughtException", async function (error) {
 	console.log("An error uncaughtException has occured. error is: %s", error);
 	console.log("Process will restart now.");
-	await db.connection.disconnectDB();
+	process.env.DATABASE === "true" && (await db.connection.disconnectDB());
 
 	process.exit(1);
 });
@@ -79,6 +79,6 @@ process.on("uncaughtException", async function (error) {
 process.on("unhandledRejection", async function (error) {
 	console.log("An error unhandledRejection has occured. error is: %s", error);
 	console.log("Process will restart now.");
-	await db.connection.disconnectDB();
+	process.env.DATABASE === "true" && (await db.connection.disconnectDB());
 	process.exit(1);
 });

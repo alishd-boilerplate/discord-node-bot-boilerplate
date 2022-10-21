@@ -24,7 +24,7 @@ const connectDB = async (): Promise<void> => {
 		return;
 	}
 	try {
-		await Mongoose.connect(process.env.MONGODB, {
+		await Mongoose.connect(process.env.MONGODB_STRING, {
 			useNewUrlParser: true,
 			useFindAndModify: false,
 			useUnifiedTopology: true,

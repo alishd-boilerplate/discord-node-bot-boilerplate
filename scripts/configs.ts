@@ -12,8 +12,16 @@ import * as fs from "fs";
 import * as shell from "shelljs";
 declare const __dirname: string;
 
-const path = `${__dirname}/../app/configs/config.js`;
+const pathConfig = `${__dirname}/../app/configs/config.js`;
+const pathEnvDevelopment = `${__dirname}/../.env.development`;
+const pathEnvProduction = `${__dirname}/../.env.production`;
 
-if (!fs.existsSync(path)) {
-	shell.cp("-Rf", `${__dirname}/../app/configs/config.js.tpl`, `${path}`);
+if (!fs.existsSync(pathConfig)) {
+	shell.cp("-Rf", `${__dirname}/../app/configs/config.js.tpl`, `${pathConfig}`);
+}
+if (!fs.existsSync(pathEnvDevelopment)) {
+	shell.cp("-Rf", `${__dirname}/../.env.example`, `${pathEnvDevelopment}`);
+}
+if (!fs.existsSync(pathEnvProduction)) {
+	shell.cp("-Rf", `${__dirname}/../.env.example`, `${pathEnvProduction}`);
 }

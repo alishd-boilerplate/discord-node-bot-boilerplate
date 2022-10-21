@@ -1,6 +1,6 @@
 {
 	"projectName": "alishd-boilerplate/discord-node-bot-boilerplate",
-	"projectOwner": "alishd",
+	"projectOwner": "alishadman95",
 	"repoType": "github",
 	"repoHost": "https://github.com",
 	"files": [
@@ -14,6 +14,18 @@
 			"name": "Ali Shadman",
 			"avatar_url": "https://avatars.githubusercontent.com/u/50172746?s=400&u=c681fbe46cb0e3a866b3d19bdd2a96bfb21c7144&v=4",
 			"profile": "https://alishd.dev",
+			"contributions": [
+				"code",
+				"translation",
+				"doc",
+				"bug"
+			]
+		},
+		{
+			"login": "ptkdev",
+			"name": "Patryk Rzucidło",
+			"avatar_url": "https://avatars1.githubusercontent.com/u/442844?v=4",
+			"profile": "https://ptk.dev",
 			"contributions": [
 				"code",
 				"translation",

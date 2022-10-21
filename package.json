@@ -1,6 +1,6 @@
 {
-	"name": "pckname",
-	"displayName": "display name",
+	"name": "discord-node-bot-boilerplate",
+	"displayName": "Node Discord BOT Boilerplate",
 	"description": "Create your discord bot with this awesome boilerplate. Use this repository as template for your bot",
 	"version": "1.0.0",
 	"main": "dist/core/bot.js",
@@ -26,6 +26,7 @@
 	},
 	"scripts": {
 		"init": "npm install && husky install",
+		"configure": "ts-node scripts/configs.ts && ts-node scripts/init.ts",
 		"setup": "ts-node --skip-project scripts/setup.ts && ts-node --skip-project scripts/changelog.ts && npm run pre-commit",
 		"start": "node dist/core/bot.js",
 		"start-pm2": "npm run git-hash && pm2 start .pm2-process.json",
@@ -55,7 +56,11 @@
 		"pkg-update": "npm update",
 		"pkg-upgrade": "npx --yes npm-check-updates -u && npm install && husky install",
 		"postinstall": "rm ./node_modules/mongoose/index.d.ts",
-		"prepare": "ts-patch install -s"
+		"prepare": "ts-patch install -s",
+		"enable-db": "ts-node scripts/api-db.ts db on",
+		"disable-db": "ts-node scripts/api-db.ts db off",
+		"enable-api": "ts-node scripts/api-db.ts api on",
+		"disable-api": "ts-node scripts/api-db.ts api off"
 	},
 	"dependencies": {
 		"@discordjs/rest": "^0.4.1",

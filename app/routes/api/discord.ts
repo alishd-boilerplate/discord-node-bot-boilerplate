@@ -1,5 +1,5 @@
 /**
- * Router Wrapper telegram api (message)
+ * Router Wrapper Discord api (message)
  * =====================
  *
  *  Ali Shadman [@alishd] <alishadman955@gmail.com> (https://alishd.dev)
