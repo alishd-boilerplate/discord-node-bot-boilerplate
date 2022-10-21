@@ -1,0 +1,105 @@
+{
+	"files": [
+		"README.md",
+		"CHANGELOG.md"
+	],
+	"shields": [
+		{
+			"id": "header-badges",
+			"badges": [
+				{
+					"url": "https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/CHANGELOG.md",
+					"color": "lightgray",
+					"label": "version",
+					"message": "v{{version}}",
+					"title": "v{{version}}",
+					"style": "flat",
+					"logo": "",
+					"platform": "shields"
+				},
+				{
+					"url": "https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/LICENSE.md",
+					"color": "brightgreen",
+					"label": "license",
+					"message": "{{license}}",
+					"title": "License: {{license}}",
+					"style": "flat",
+					"logo": "license",
+					"platform": "shields"
+				},
+				{
+					"url": "https://www.typescriptlang.org/",
+					"color": "blue",
+					"label": "language",
+					"message": "typescript",
+					"title": "Language: TypeScript",
+					"style": "flat",
+					"logo": "typescript",
+					"platform": "shields"
+				},
+				{
+					"url": "https://github.com/tc39/ecma262",
+					"color": "#F7DF1E",
+					"label": "ES",
+					"message": "9",
+					"title": "ECMAScript: 2019",
+					"style": "flat",
+					"logo": "javascript",
+					"platform": "shields"
+				}
+			]
+		},
+		{
+			"id": "sponsors-badges",
+			"badges": [
+				{
+					"url": "https://www.paypal.me/alishadman95",
+					"color": "#005EA6",
+					"label": "donate",
+					"message": "paypal",
+					"title": "Donate Paypal",
+					"style": "for-the-badge",
+					"logo": "paypal",
+					"platform": "shields"
+				}
+			]
+		},
+		{
+			"id": "projects-badges1",
+			"badges": [
+				{
+					"url": "https://alishd.dev/",
+					"color": "#3498db",
+					"label": "💻 My",
+					"message": "Portfolio",
+					"style": "flat",
+					"logo": "",
+					"platform": "shields"
+				}
+			]
+		},
+		{
+			"id": "projects-badges1",
+			"badges": [
+				{
+					"url": "https://github.com/alishadman95/godbot",
+					"color": "#f1c40f",
+					"label": "🎨 God bot",
+					"message": "BOT",
+					"style": "flat",
+					"logo": "",
+					"platform": "shields"
+				},
+				{
+					"url": "https://github.com/alishd-boilerplate?q=bot",
+					"color": "#f368e0",
+					"label": "👔 Boilerplate",
+					"message": "BOT",
+					"style": "flat",
+					"logo": "",
+					"platform": "shields"
+				}
+			]
+		}
+	]
+}
