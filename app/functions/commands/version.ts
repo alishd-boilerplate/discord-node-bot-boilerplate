@@ -9,7 +9,7 @@
  */
 import discord from "@routes/api/discord";
 import logger from "@app/functions/utils/logger";
-import v from "@app/configs/version.json";
+import pkg from "../../../package.json";
 
 /**
  * command: /version
@@ -20,7 +20,7 @@ import v from "@app/configs/version.json";
 
 const version = async (ctx): Promise<void> => {
 	logger.info("command: /version", "version.ts:version()");
-	discord.api.interactions.send(ctx, `v${v?.semver || "0.0.0"}`, "");
+	discord.api.interactions.send(ctx, `v${pkg?.version || "0.0.0"}`, "");
 };
 
 export { version };

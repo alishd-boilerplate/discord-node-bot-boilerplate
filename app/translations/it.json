@@ -1,0 +1,11 @@
+{
+	"contributions": {
+		"language": "Italian",
+		"license": "CC BY 4.0",
+		"contributors": ["Ali Shadman [@alishd] <support@@alishd.dev> (https://alishd.dev)"]
+	},
+	"app_name": "discord-node-bot-boilerplate",
+	"hello": "Ciao Mondo!",
+	"info": "Ottieni informazioni riguardo al bot",
+	"version": "Ottieni la versione del bot"
+}

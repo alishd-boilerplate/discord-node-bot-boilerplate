@@ -9,8 +9,11 @@
 import bot from "@app/core/token";
 import discord from "@routes/api/discord";
 import commands from "@app/routes/commands";
+import translate from "@translations/translate";
+
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const wait = require("node:timers/promises").setTimeout;
+const lang = process.env.LANGUAGE || "en";
 
 /**
  * Command Handler
@@ -25,7 +28,7 @@ const commandsHandler = async (): Promise<void> => {
 			return;
 		}
 
-		discord.api.message.send(ctx, "Hello world!", "");
+		discord.api.message.send(ctx, translate(lang, "hello"), "");
 	});
 
 	bot.on("interactionCreate", async (ctx): Promise<void> => {
@@ -39,7 +42,7 @@ const commandsHandler = async (): Promise<void> => {
 				case "help":
 					commands.help(ctx);
 					break;
-				case "versione":
+				case "version":
 					commands.version(ctx);
 					break;
 				default:

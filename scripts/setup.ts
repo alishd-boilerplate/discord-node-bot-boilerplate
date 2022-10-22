@@ -282,15 +282,4 @@ const pkg = require("../package.json");
 	} catch (error) {
 		console.error("Error occurred:", error);
 	}
-
-	try {
-		await replace({
-			files: ["package.json"],
-			ignore: ["node_modules/**/*", "setup.json", "package-lock.json", "scripts/setup.ts", ".all-shieldsrc"],
-			from: pkg.version,
-			to: "1.0.0",
-		});
-	} catch (error) {
-		console.error("Error occurred:", error);
-	}
 })();

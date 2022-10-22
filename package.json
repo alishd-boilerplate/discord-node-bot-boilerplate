@@ -2,7 +2,7 @@
 	"name": "@alishd/discord-node-bot-boilerplate",
 	"displayName": "Node Discord BOT Boilerplate",
 	"description": "Create your discord bot with this awesome boilerplate. Use this repository as template for your bot",
-	"version": "1.231022.0",
+	"version": "1.231022.1",
 	"main": "dist/core/bot.js",
 	"publishConfig": {
 		"access": "public"
@@ -58,7 +58,8 @@
 		"enable-db": "ts-node scripts/api-db.ts db on",
 		"disable-db": "ts-node scripts/api-db.ts db off",
 		"enable-api": "ts-node scripts/api-db.ts api on",
-		"disable-api": "ts-node scripts/api-db.ts api off"
+		"disable-api": "ts-node scripts/api-db.ts api off",
+		"set-language": "ts-node scripts/change-language.ts"
 	},
 	"dependencies": {
 		"@discordjs/rest": "^0.4.1",

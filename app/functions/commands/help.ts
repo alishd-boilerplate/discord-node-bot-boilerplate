@@ -1,5 +1,6 @@
 import discord from "@routes/api/discord";
 import { MessageEmbed, MessageActionRow, MessageSelectMenu } from "discord.js";
+import translate from "@translations/translate";
 
 /**
  * command: !help
@@ -8,6 +9,9 @@ import { MessageEmbed, MessageActionRow, MessageSelectMenu } from "discord.js";
  *
  * @param ctx
  */
+
+const lang = process.env.LANGUAGE || "en";
+
 const help = async (ctx): Promise<void> => {
 	const isFromSelect = ctx.isSelectMenu();
 
@@ -47,15 +51,15 @@ const pluginOneHelp = (ctx, isFromSelect: boolean) => {
 const plugin2Help = (ctx, isFromSelect: boolean) => {
 	const embedMessage = new MessageEmbed()
 		.setColor("#0099ff")
-		.setDescription("Comandi generali del bot")
+		.setDescription("General command of the bot")
 		.setAuthor({
-			name: "GODBOT - Generale",
-			iconURL: "https://cdn-icons-png.flaticon.com/512/2534/2534504.png",
+			name: "discord-node-bot-boilerplate",
+			iconURL: "",
 		})
 		.addFields(
-			{ name: "`/info`", value: "Ottieni informazioni riguardo al bot" },
+			{ name: "`/info`", value: translate(lang, "info") },
 
-			{ name: "`/versione`", value: "Ottieni la versione del bot" },
+			{ name: "`/version`", value: translate(lang, "version") },
 		);
 
 	if (isFromSelect) {
