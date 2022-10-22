@@ -2,7 +2,7 @@
 
 <!-- all-shields/header-badges:START -->
 
-[![v1.0.0](https://img.shields.io/badge/version-v1.0.0-lightgray.svg?style=flat&logo=)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/CHANGELOG.md) [![](https://img.shields.io/npm/v/@alishd/discord-node-bot-boilerplate?color=CC3534&logo=npm)](https://www.npmjs.com/package/@alishd/discord-node-bot-boilerplate) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/LICENSE.md) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262)
+[![v1.231022.0](https://img.shields.io/badge/version-v1.231022.0-lightgray.svg?style=flat&logo=)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/CHANGELOG.md) [![](https://img.shields.io/npm/v/@alishd/discord-node-bot-boilerplate?color=CC3534&logo=npm)](https://www.npmjs.com/package/@alishd/discord-node-bot-boilerplate) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/LICENSE.md) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262)
 
 <!-- all-shields/header-badges:END -->
 
