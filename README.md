@@ -61,7 +61,8 @@ A huge thanks goes to my friend [PTKdev](https://github.com/PTKdev) for giving m
    `npm run configure --botkey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad --mongodb 1234:3242342 --jwtsecret somesecretstring` (MongoDB and JWT are optional)
 5. Run `npm run dev`
 
-By default both MONGODB and a REST API are enabled, for disabiling it just use those comands:  
+By default both MONGODB and a REST API are enabled, for disabiling it just use those comands:
+
 `npm run enable-db dev`  
 `npm run enable-api dev`  
 `npm run disable-db dev`  
