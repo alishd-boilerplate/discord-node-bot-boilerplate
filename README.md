@@ -10,7 +10,7 @@ Create your discord bot with this awesome boilerplate. Use this template for you
 
 This is a [github template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/), you can fork it or [use it as a template](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/generate) to start a new project with this repository as hello-world. Use this template to start ahead without losing time configuring your template!
 
-A huge thanks goes to my friend [PTKdev](https://github.com/PTKdev) for allowing me to take a cue from his beatiful templates! Go check him out!
+A huge thanks to my friend [PTKdev](https://github.com/PTKdev) for giving me inspiration from his beautiful templates! Go check him out!
 
 ## 🎁 Support: Donate
 
@@ -39,9 +39,9 @@ A huge thanks goes to my friend [PTKdev](https://github.com/PTKdev) for allowing
 -   [✔️] MIT License
 -   [✔️] Make discord bot with node
 -   [✔️] Friendly boilerplate + Github templates
--   [✔️] MongoDB with Moongoose
+-   [✔️] Optional MongoDB with Moongoose
 -   [✔️] Optional rest api preconfigured
--   [✔️] JWT Login
+-   [✔️] Optional JWT Security
 -   [✔️] Typescript + TSPaths preconfigured
 -   [✔️] Userfriendly folders tree
 -   [✔️] Prettify and ESLint preconfigured
@@ -61,14 +61,14 @@ A huge thanks goes to my friend [PTKdev](https://github.com/PTKdev) for allowing
 5. Run `npm run dev`
 
 By default both MONGODB and a REST API are enabled, for disabiling it just use those comands:
-`npm run enable-db dev`
-`npm run enable-api dev`
-`npm run disable-db dev`
+`npm run enable-db dev`  
+`npm run enable-api dev`  
+`npm run disable-db dev`  
 `npm run disable-api dev`
 
-`npm run enable-db prod`
-`npm run enable-api prod`
-`npm run disable-db prod`
+`npm run enable-db prod`  
+`npm run enable-api prod`  
+`npm run disable-db prod`  
 `npm run disable-api prod`
 
 ### 💾 Setup Project
