@@ -18,6 +18,15 @@
 					"platform": "shields"
 				},
 				{
+					"url": "https://www.npmjs.com/package/@alishd/discord-node-bot-boilerplate",
+					"color": "#CC3534",
+					"label": "npm",
+					"logo": "npm",
+					"style": "flat",
+					"custom": "/npm/v/@alishd/discord-node-bot-boilerplate?color=CC3534&logo=npm",
+					"platform": "shields"
+				},
+				{
 					"url": "https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/LICENSE.md",
 					"color": "brightgreen",
 					"label": "license",
