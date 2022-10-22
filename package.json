@@ -1,5 +1,5 @@
 {
-	"name": "discord-node-bot-boilerplate",
+	"name": "@alishd/discord-node-bot-boilerplate",
 	"displayName": "Node Discord BOT Boilerplate",
 	"description": "Create your discord bot with this awesome boilerplate. Use this repository as template for your bot",
 	"version": "1.0.0",
