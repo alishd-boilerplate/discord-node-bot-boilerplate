@@ -2,12 +2,12 @@
 	"name": "@alishd/discord-node-bot-boilerplate",
 	"displayName": "Node Discord BOT Boilerplate",
 	"description": "Create your discord bot with this awesome boilerplate. Use this repository as template for your bot",
-	"version": "1.22102022.1",
+	"version": "1.0.0",
 	"main": "dist/core/bot.js",
 	"publishConfig": {
 		"access": "public"
 	},
-	"author": "Ali Shadman [@alishd] <alishadman955@gmail.com> (https://alishd.dev)",
+	"author": "Ali Shadman [@alishd] <support@@alishd.dev> (https://alishd.dev)",
 	"license": "MIT",
 	"license-docs": "CC BY 4.0",
 	"license-translations": "CC BY 4.0",
@@ -27,7 +27,7 @@
 	"scripts": {
 		"init": "npm install && husky install",
 		"configure": "ts-node scripts/configs.ts && ts-node scripts/init.ts",
-		"setup": "ts-node --skip-project scripts/setup.ts && ts-node --skip-project scripts/changelog.ts && npm run pre-commit",
+		"setup": "ts-node --skip-project scripts/setup.ts && npm run pre-commit",
 		"start": "node dist/core/bot.js",
 		"start-pm2": "npm run git-hash && pm2 start .pm2-process.json",
 		"stop-pm2": "npm run git-hash && pm2 stop .pm2-process.json",

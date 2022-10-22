@@ -3,7 +3,7 @@
  * =====================
  * Configure telegram token and username
  *
- * @contributors: Ali Shadman [@alishd] <alishadman955@gmail.com> (https://alishd.dev)
+ * @contributors: Ali Shadman [@alishd] <support@@alishd.dev> (https://alishd.dev)
  *
  * @license: MIT License
  *

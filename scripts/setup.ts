@@ -189,7 +189,7 @@ const pkg = require("../package.json");
 				".all-contributorsrc",
 				".all-shieldsrc",
 			],
-			from: /Ali Shadman \[@alishd\] <alishadman955@gmail.com> \(https:\/\/alishd.dev\)/g,
+			from: /Ali Shadman \[@alishd\] <support@alishd.dev> \(https:\/\/alishd.dev\)/g,
 			to: setup.author,
 		});
 	} catch (error) {
@@ -276,7 +276,7 @@ const pkg = require("../package.json");
 				".all-contributorsrc",
 				".all-shieldsrc",
 			],
-			from: /alishadman955@gmail.com/g,
+			from: /support@alishd.dev/g,
 			to: setup.email,
 		});
 	} catch (error) {

@@ -3,11 +3,11 @@
 	"package_org": "@alishd",
 	"display_name": "Node Discord BOT Boilerplate",
 	"description": "Create your discord bot with this awesome boilerplate. Use this repository as template for your bot",
-	"author": "Ali Shadman [@alishd] <alishadman955@gmail.com> (https://alishd.dev)",
+	"author": "Ali Shadman [@alishd] <support@alishd.dev> (https://alishd.dev)",
 	"author_markdown": "[Ali Shadman] (https://alishd.dev)",
 	"author_url": "https://alishd.dev",
 	"github_nickname": "alishadman95",
 	"github_repository_url": "github.com/alishd-boilerplate",
 	"github_full_repository_url": "github.com/alishd-boilerplate/discord-node-bot-boilerplate",
-	"email": "alishadman955@gmail.com"
+	"email": "support@@alishd.dev"
 }

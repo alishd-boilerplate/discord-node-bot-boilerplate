@@ -3,7 +3,7 @@
  * =====================
  * The best alternative to the console.log statement
  *
- * Ali Shadman [@alishd] <alishadman955@gmail.com> (https://alishd.dev)
+ * Ali Shadman [@alishd] <support@@alishd.dev> (https://alishd.dev)
  *
  * @license: MIT License
  *

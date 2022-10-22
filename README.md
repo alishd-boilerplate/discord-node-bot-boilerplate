@@ -2,13 +2,13 @@
 
 <!-- all-shields/header-badges:START -->
 
-[![v1.22102022.1](https://img.shields.io/badge/version-v1.22102022.1-lightgray.svg?style=flat&logo=)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/CHANGELOG.md) [![](https://img.shields.io/npm/v/@alishd/discord-node-bot-boilerplate?color=CC3534&logo=npm)](https://www.npmjs.com/package/@alishd/discord-node-bot-boilerplate) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/LICENSE.md) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262)
+[![v1.0.0](https://img.shields.io/badge/version-v1.0.0-lightgray.svg?style=flat&logo=)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/CHANGELOG.md) [![](https://img.shields.io/npm/v/@alishd/discord-node-bot-boilerplate?color=CC3534&logo=npm)](https://www.npmjs.com/package/@alishd/discord-node-bot-boilerplate) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/blob/main/LICENSE.md) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262)
 
 <!-- all-shields/header-badges:END -->
 
-Create your discord bot with this awesome boilerplate. Use this template for your bot
+Create your discord bot with this awesome boilerplate. Use this template for your bot.
 
-This is a [github template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/), you can fork it or [use it as a template](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/generate) to start a new project with this repository as hello-world. Use this template to start ahead without losing time configuring your template!
+This is a [github template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/), you can fork it or [use it as a template](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/generate) to start a new project with this repository as hello-world. Use this template to start ahead without losing time configuring your own!
 
 A huge thanks goes to my friend [PTKdev](https://github.com/PTKdev) for giving me inspiration from his beautiful templates! Go check him out!
 
@@ -61,7 +61,7 @@ A huge thanks goes to my friend [PTKdev](https://github.com/PTKdev) for giving m
    `npm run configure --botkey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad --mongodb 1234:3242342 --jwtsecret somesecretstring` (MongoDB and JWT are optional)
 5. Run `npm run dev`
 
-By default both MONGODB and a REST API are enabled, for disabiling it just use those comands:
+By default both MONGODB and a REST API are enabled, to disable them just use these commands:
 
 `npm run enable-db dev`  
 `npm run enable-api dev`  
@@ -75,7 +75,7 @@ By default both MONGODB and a REST API are enabled, for disabiling it just use t
 
 ### 💾 Setup Project
 
-If you want to replace all strings (example: package name, author, URLs, etc...) in the markdown file, source files and others files of this project you need to edit `setup.json` with correct values and run `npm run setup`.
+If you want to replace all strings (for example: package name, author, URLs, etc...) in the markdown file, source files and other files of this project you need to edit `setup.json` with the correct values and run `npm run setup`.
 
 ## 🚀 Deploy
 
@@ -94,7 +94,7 @@ Run `npm run docs`
 
 I love contributions! I will happily accept your pull request! Translations, grammatical corrections, code correction and suggestions. Remember to insert your name in `.all-contributorsrc` and `package.json` files.
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Many thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START -->
 <!-- prettier-ignore-start -->
@@ -127,4 +127,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 -   Images and logos have **CC BY-NC 4.0 License**
 -   Documentations and Translations have **CC BY 4.0 License**
 
-###### Copyleft (c) 2022 [Ali Shadman](https://alishd.dev) <[alishadman955@gmail.com](mailto:alishadman955@gmail.com)>
+###### Copyleft (c) 2022 [Ali Shadman](https://alishd.dev) <[support@@alishd.dev](mailto:support@@alishd.dev)>

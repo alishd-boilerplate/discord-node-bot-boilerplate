@@ -3,7 +3,7 @@
  * =====================
  * Check if configs/config.js exist, if don't exist rename .tpl
  *
- * Ali Shadman [@alishd] <alishadman955@gmail.com> (https://alishd.dev)
+ * Ali Shadman [@alishd] <support@@alishd.dev> (https://alishd.dev)
  *
  * @license: MIT License
  *
