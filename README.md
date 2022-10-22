@@ -10,7 +10,7 @@ Create your discord bot with this awesome boilerplate. Use this template for you
 
 This is a [github template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/), you can fork it or [use it as a template](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/generate) to start a new project with this repository as hello-world. Use this template to start ahead without losing time configuring your template!
 
-A huge thanks to my friend [PTKdev](https://github.com/PTKdev) for giving me inspiration from his beautiful templates! Go check him out!
+A huge thanks goes to my friend [PTKdev](https://github.com/PTKdev) for giving me inspiration from his beautiful templates! Go check him out!
 
 ## 🎁 Support: Donate
 
@@ -55,12 +55,13 @@ A huge thanks to my friend [PTKdev](https://github.com/PTKdev) for giving me ins
 ### 🏁 Run Project
 
 1. Clone this repository or download [nightly](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/archive/nightly.zip), [beta](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/archive/beta.zip) or [stable](https://github.com/alishd-boilerplate/discord-node-bot-boilerplate/archive/main.zip).
-2. Go to [@discord api](https://discord.com/developers/applications) and create new bot (Obtain an API Key / CLIENT ID key / GUILD ID key)
+2. Go to [@discord api](https://discord.com/developers/applications) and create a new bot (Obtain an API Key / CLIENT ID key / GUILD ID key)
 3. Run `npm run init`
-4. Run with correct values: `npm run configure --botkey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad --mongodb 1234:3242342 --jwtsecret somesecretstring` (MongoDB and JWT are optional)
+4. Run with correct values:
+   `npm run configure --botkey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad --mongodb 1234:3242342 --jwtsecret somesecretstring` (MongoDB and JWT are optional)
 5. Run `npm run dev`
 
-By default both MONGODB and a REST API are enabled, for disabiling it just use those comands:
+By default both MONGODB and a REST API are enabled, for disabiling it just use those comands:  
 `npm run enable-db dev`  
 `npm run enable-api dev`  
 `npm run disable-db dev`  
