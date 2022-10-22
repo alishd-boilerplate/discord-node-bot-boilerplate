@@ -81,8 +81,8 @@ If you want to replace all strings (example: package name, author, URLs, etc...)
 
 Deploy bot to your server and:
 
-1. Run with correct values: `npm run init:token --botkey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad --mongodb 1234:3242342 --jwtsecret somesecretstring` (MongoDB and JWT are optional)
-2. Run `npm run init`
+1. Run `npm run init`
+2. Run with correct values: `npm run configure --botkey name_bot --clientid 1234:asdfghjkl --guildid 1234:asdsfssad --mongodb 1234:3242342 --jwtsecret somesecretstring` (MongoDB and JWT are optional)
 3. Generate release `npm run release`
 4. Start bot `npm run start-pm2`
 
