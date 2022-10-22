@@ -44,8 +44,6 @@
 		"git-pull": "git pull --recursive",
 		"git-hash": "ts-node scripts/githash.ts",
 		"git-ignore-reset": "git rm -r --cached . && git add . && git commit -m \"[Fix] Removing all files in .gitignore\"",
-		"github-workflow-next-version": "ts-node scripts/version.ts",
-		"github-workflow-changelog": "ts-node scripts/changelog_release.ts",
 		"npm-publish-main": "git checkout main && npm publish",
 		"npm-publish-beta": "git checkout beta && npm publish --tag beta",
 		"npm-publish-nightly": "git checkout nightly && npm publish --tag nightly",
